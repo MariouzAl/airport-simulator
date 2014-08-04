@@ -5,6 +5,13 @@ public class Avion {
 	private String aerolinea;
 	private String motor;
 	private int combustible;
+
+	public Avion(String aerolinea, String motor, int numero, int combustible) {
+		this.aerolinea=aerolinea;
+		this.motor= motor;
+		this.numero = numero;
+		this.combustible= combustible;
+	}
 	public int getNumero() {
 		return numero;
 	}
